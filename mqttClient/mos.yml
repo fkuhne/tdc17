@@ -27,13 +27,12 @@ config_schema:
    - ["wifi.sta.ssid", "TDC_Poa_Vip"]
    - ["wifi.sta.pass", "spe@kersPOA"]
    - ["mqtt.enable", true]
-   - ["mqtt.server", "q.emqtt.com:1883"]
+   - ["mqtt.server", "iot.eclipse.org:1883"]
    - ["mqtt.client_id", "esp8266-tdcpoa17"]
 
 
 # List of libraries used by this app, in order of initialisation
 libs:
-#  - origin: https://github.com/mongoose-os-libs/ca-bundle
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
   - origin: https://github.com/mongoose-os-libs/rpc-uart
