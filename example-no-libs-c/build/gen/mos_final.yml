@@ -1,0 +1,20 @@
+type: app
+version: "1.0"
+platform: esp8266
+platforms:
+- cc3200
+- cc3220
+- esp32
+- esp8266
+- pic32
+- stm32
+author: mongoose-os
+description: Most minimal app - no libs, no networking, no RPC, nothing
+sources:
+- /Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/src/main.c
+tags:
+- c
+libs_version: 1.19.5
+modules_version: 1.19.5
+mongoose_os_version: 1.19.5
+manifest_version: 2017-05-18

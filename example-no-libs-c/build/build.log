@@ -1,0 +1,13 @@
+The flag --repo is not given, going to use mongoose-os repository
+Repository "/Users/fkair/.mos/modules-1.19.5/mongoose-os-1.19.5" does not exist, cloning...
+
+Sources: [/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/src/main.c]
+Include dirs: []
+Binary libs: []
+Building...
+mount from "/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c" to "/app"
+mount from "/Users/fkair/.mos/modules-1.19.5/mongoose-os-1.19.5" to "/mongoose-os"
+mount from "/Users/fkair/.mos/modules-1.19.5/mongoose-os-1.19.5" to "/Users/fkair/.mos/modules-1.19.5/mongoose-os-1.19.5"
+mount from "/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/build" to "/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/build"
+mount from "/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/src" to "/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/src"
+Docker arguments: run --name mos_build_2017-11-02T15-47-13-00_8037 --rm -i -v /Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c:/app -v /Users/fkair/.mos/modules-1.19.5/mongoose-os-1.19.5:/mongoose-os -v /Users/fkair/.mos/modules-1.19.5/mongoose-os-1.19.5:/Users/fkair/.mos/modules-1.19.5/mongoose-os-1.19.5 -v /Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/build:/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/build -v /Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/src:/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/src docker.cesanta.com/esp8266-build:2.1.0-1.5.0-r7 /bin/bash -c nice make '-j' '4' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp8266/Makefile.build' 'all' 'FFI_SYMBOLS=' 'APP_INCLUDES=' 'APP_CFLAGS=' 'BUILD_DIR=/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/build/objs' 'APP=example-no-libs-c' 'GEN_DIR=/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/build/gen' 'FW_DIR=build/fw' 'APP_FS_FILES=' 'PLATFORM=esp8266' 'APP_VERSION=1.0' 'MGOS_PATH=/mongoose-os' 'MANIFEST_FINAL=/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/build/gen/mos_final.yml' 'FS_STAGING_DIR=build/fs' 'APP_SOURCES=/Users/fkair/DBLab/TDC17/mongooseOs/example-no-libs-c/src/main.c' 'APP_BIN_LIBS=' 'APP_CXXFLAGS='
