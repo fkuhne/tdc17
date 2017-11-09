@@ -4,7 +4,7 @@
 static void mqttDataReceivedCallback(struct mg_connection *c, const char *topic,
   int topic_len, const char *msg, int msg_len, void *userdata)
 {
-  printf("TOPICO [%.*s]: [%.*s]\n", topic_len, topic, msg_len, msg);
+  printf("Recebendo: [%.*s] no topico: [%.*s]\n", msg_len, msg, topic_len, topic);
   fflush(0);
 
   (void)c;
@@ -17,7 +17,7 @@ void timerCallback(void *args)
   char msg[20] = {};
 
   snprintf(msg, sizeof(msg), "MENSAGEM %d", messageCounter++);
-  printf("Enviando: [%.*s]\n", strlen(msg), msg);
+  printf("Enviando:  [%.*s] para o topico: [my/topic]\n", strlen(msg), msg);
   fflush(0);
 
   mgos_gpio_toggle(2);

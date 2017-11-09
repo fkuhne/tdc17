@@ -26,7 +26,6 @@ config_schema:
    - ["wifi.sta.enable", true]
    - ["wifi.sta.ssid", "TDC_Poa_Vip"]
    - ["wifi.sta.pass", "spe@kersPOA"]
-#   - ["wifi.ap.enable", false]
    - ["mqtt.enable", true]
    - ["mqtt.server", "q.emqtt.com:1883"]
    - ["mqtt.client_id", "esp8266-tdcpoa17"]
