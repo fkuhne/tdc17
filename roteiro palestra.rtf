@@ -1,0 +1,74 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red0\green0\blue0;
+\red242\green239\blue236;\red68\green101\blue67;\red135\green135\blue135;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\csgray\c100000;\csgray\c0;
+\cssrgb\c96078\c94902\c94118;\cssrgb\c33333\c46667\c33333;\cssrgb\c60000\c60000\c60000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13480\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 ROTEIRO PALESTRA TDC 2017\
+\
+Uma Introdu\'e7\'e3o ao Mongoose OS no ESP8266\
+\
+\
+1. Introdu\'e7\'e3o ({\field{\*\fldinst{HYPERLINK "https://mongoose-os.com/docs/book/intro.html"}}{\fldrslt https://mongoose-os.com/docs/book/intro.html}})\
+    1.1 not\'edcias sobre o uso: google, adafruit, etc\'85\
+    1.2 arquitetura\
+\
+2. Instala\'e7\'e3o\
+\
+3. Explica\'e7\'e3o da estrutura de codifica\'e7\'e3o e compila\'e7\'e3o (mongoose-os/docs/book/build.html)\
+\
+4. Exemplo vazio\
+    mos init \'97arch esp8266\
+    conte\'fado do diret\'f3rio do app\
+    mos build (na nuvem)\
+    conte\'fado do diret\'f3rio build\
+    mos flash\
+\
+5. Exemplo com um timer, printf e LED (helloWorld)\
+    mos init \'97arch esp8266\
+    edita o src/main.c\
+    mos build\
+    mos flash\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2     mos console\
+\
+6. exemplo configBlink\
+    {\field{\*\fldinst{HYPERLINK "https://mongoose-os.com/docs/book/configuration.html"}}{\fldrslt https://mongoose-os.com/docs/book/configuration.html}}\
+    mudando config em run-time com o mos.yml:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \cb3 \CocoaLigature0     mos config-set configBlink.ledInterval=100\cb1 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+7. Exemplos\
+    {\field{\*\fldinst{HYPERLINK "https://github.com/mongoose-os-apps"}}{\fldrslt https://github.com/mongoose-os-apps}}\
+\
+8. Exemplo: wifi scanner com RPC ({\field{\*\fldinst{HYPERLINK "https://github.com/mongoose-os-apps/wifi-scan"}}{\fldrslt https://github.com/mongoose-os-apps/wifi-scan}} / {\field{\*\fldinst{HYPERLINK "https://github.com/mongoose-os-apps/example-rpc-c"}}{\fldrslt https://github.com/mongoose-os-apps/example-rpc-c}})\
+    
+\f1 \cf4 \cb3 \CocoaLigature0 git clone https://github.com/mongoose-os-apps/wifi-scan.git\
+  \
+*** n\'e3o precisa codificar! basta adicionar a lib   \
+- origin: https://github.com/mongoose-os-libs/rpc-service-wifi\
+\
+  mos call Wifi.Scan\
+  mos Config.Set\
+
+\f0 \cf2 \cb1 \CocoaLigature1  \
+\
+\
+5. Bibliotecas dispon\'edveis (\cf2 \cb5 \expnd0\expndtw0\kerning0
+ttps://github.com/mongoose-os-libs\cb1 \kerning1\expnd0\expndtw0 )\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+\
+\
+8. Servidor HTTP\
+\
+9. Cliente MQTT com broker local\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2      {\field{\*\fldinst{HYPERLINK "https://github.com/cesanta/mongoose-os/tree/master/fw/examples"}}{\fldrslt https://github.com/cesanta/mongoose-os/tree/master/fw/examples}}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+}
