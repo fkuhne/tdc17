@@ -1,0 +1,229 @@
+Handling lib "rpc-service-fs"...
+The --lib flag was not given for it, checking repository
+Handling lib "rpc-service-config"...
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs" does not exist, cloning...
+
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config" does not exist, cloning...
+
+Handling lib "rpc-uart"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart" does not exist, cloning...
+
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config" is updated recently enough, don't touch it
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart" is updated recently enough, don't touch it
+Hash is updated:  -> 59fa08cc5bf345d38964f64df9c5c1f53b86b285
+Hash is updated:  -> 9c5ed49b3870e06cdeea010b0d29defd4b2227e3
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs" is updated recently enough, don't touch it
+Hash is updated:  -> e6cf12c0c0b0fafe7a684d8bfcfde83c74ca3c74
+Successfully fetched prebuilt binary for https://github.com/mongoose-os-libs/rpc-service-config to /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/lib/esp8266/librpc-service-config.a
+Prepared local dir: "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config"
+Handling lib "rpc-common"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common" does not exist, cloning...
+
+Successfully fetched prebuilt binary for https://github.com/mongoose-os-libs/rpc-uart to /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/lib/esp8266/librpc-uart.a
+Prepared local dir: "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart"
+Lib "rpc-common" is already handled, skipping
+Successfully fetched prebuilt binary for https://github.com/mongoose-os-libs/rpc-service-fs to /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/lib/esp8266/librpc-service-fs.a
+Prepared local dir: "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs"
+Lib "rpc-common" is already handled, skipping
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common" is updated recently enough, don't touch it
+Hash is updated:  -> 65a7a2f2d20213300f3e9337ec60f535ca7c9e35
+Failed to fetched prebuilt binary for https://github.com/mongoose-os-libs/rpc-common: Got 404 status code
+Prepared local dir: "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common"
+Lib "http-server" is optional, skipping
+The flag --repo is not given, going to use mongoose-os repository
+Repository "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/modules/mongoose-os-latest" is updated recently enough, don't touch it
+Sources: [/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/src/main.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/deps_init.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_tcp_common.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/src/mgos_rpc_channel_uart.c]
+Include dirs: [/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include/mg_rpc /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/include /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/include /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/include]
+Binary libs: []
+Building...
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632" to "/app"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/modules/mongoose-os-latest" to "/mongoose-os"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/modules/mongoose-os-latest" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/modules/mongoose-os-latest"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/src" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/src"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/src" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/src"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/src" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/src"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/src" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/src"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include/mg_rpc" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include/mg_rpc"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/include" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/include"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/include" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/include"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/include" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/include"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/fs" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/fs"
+mount from "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen" to "/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen"
+Docker arguments: run --name mos_build_2017-11-08T22-16-01-00_1 --rm -i -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/src:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/src -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/include:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/include -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/modules/mongoose-os-latest:/mongoose-os -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/src:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/src -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/fs:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/fs -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/include:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/include -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632:/app -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/modules/mongoose-os-latest:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/modules/mongoose-os-latest -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/src:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/src -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/src:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/src -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include/mg_rpc:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include/mg_rpc -v /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/include:/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/include --user 0:0 docker.cesanta.com/esp8266-build:2.1.0-1.5.0-r7 /bin/bash -c nice make '-j' '32' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp8266/Makefile.build' 'all' 'MGOS_HAVE_RPC_COMMON=1' 'MGOS_PATH=/mongoose-os' 'APP_CFLAGS=-DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_RPC_UART=1' 'APP_CXXFLAGS=-DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_RPC_UART=1' 'PLATFORM=esp8266' 'APP_BIN_LIBS=' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'APP=configBlink' 'APP_FS_FILES=/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/fs/index.html' 'APP_INCLUDES=/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include/mg_rpc /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/include /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/include /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/include /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/include' 'FW_DIR=build/fw' 'APP_CONF_SCHEMA=/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mos_conf_schema.yml' 'MGOS_HAVE_RPC_UART=1' 'GEN_DIR=/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen' 'APP_VERSION=1.0' 'APP_SOURCES=/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/src/main.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/deps_init.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_tcp_common.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/src/mgos_rpc_channel_uart.c' 'BUILD_DIR=/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'FFI_SYMBOLS=' 'MANIFEST_FINAL=/fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mos_final.yml' 'FS_STAGING_DIR=build/fs'
+make: Entering directory '/app'
+  MKDIR /app/build/fw
+  MKDIR /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs
+  MKDIR /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/fw_temp
+  GEN   /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_config.c
+CC esptool2.c
+gcc -O2 -Wall -c esptool2.c -o /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esptool2.o
+  GEN   /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_ro_vars.c
+CC esptool2_elf.c
+gcc -O2 -Wall -c esptool2_elf.c -o /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esptool2_elf.o
+  GEN   /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/ffi_exports.c
+make[1]: Entering directory '/app'
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+  GEN   /mongoose-os/fw/platforms/esp8266/ld/non_os.ld (0xffff0 @ 0x40200010) -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/0x100000.ld
+  GEN   /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_config_schema.json
+  CC    ./src/netif/etharp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/etharp.o
+  CC    ./src/core/dhcp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/dhcp.o
+  GEN   /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_ro_vars_schema.json
+  CC    ./src/core/mem.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/mem.o
+  CC    ./src/core/sys_arch.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/sys_arch.o
+  CC    ./src/core/mdns.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/mdns.o
+  CC    ./src/core/init.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/init.o
+  CC    ./src/core/memp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/memp.o
+LD /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esptool2
+gcc -o /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esptool2 /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esptool2.o /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esptool2_elf.o
+  CC    ./src/core/sys.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/sys.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_cache.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_cache.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/src/main.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/main.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/deps_init.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/deps_init.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mg_rpc.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_tcp_common.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mg_rpc_channel_tcp_common.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mg_rpc_channel_http.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mg_rpc_channel_ws.c.o
+  CC    ./src/core/tcp_in.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/tcp_in.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-common/src/mgos_rpc.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_rpc.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-config/src/mgos_service_config.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_service_config.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-service-fs/src/mgos_service_filesystem.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_service_filesystem.c.o
+  CC    ./src/core/dns.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/dns.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/libs/rpc-uart/src/mgos_rpc_channel_uart.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_rpc_channel_uart.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/ffi_exports.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/ffi_exports.c.o
+  CC    /mongoose-os/common/cs_rbuf.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/cs_rbuf.c.o
+  CC    /mongoose-os/common/cs_file.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/cs_file.c.o
+  CC    /mongoose-os/fw/src/mgos_config_util.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_config_util.c.o
+  CC    ./src/core/raw.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/raw.o
+  CC    /mongoose-os/fw/src/mgos_dlsym.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_dlsym.c.o
+  CC    /mongoose-os/fw/src/mgos_gpio.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_gpio.c.o
+  CC    /mongoose-os/fw/src/mgos_hooks.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_hooks.c.o
+  CC    /mongoose-os/fw/src/mgos_hw_timers.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_hw_timers.c.o
+  CC    /mongoose-os/fw/src/mgos_init.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_init.c.o
+  CC    /mongoose-os/fw/src/mgos_timers.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_timers.c.o
+  CC    /mongoose-os/fw/src/mgos_mmap_esp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_mmap_esp.c.o
+  CC    /mongoose-os/fw/src/mgos_mongoose.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_mongoose.c.o
+  CC    /mongoose-os/fw/src/mgos_sys_config.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_sys_config.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_config.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_config.c.o
+  CC    ./src/core/tcp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/tcp.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_ro_vars.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_ro_vars.c.o
+  CC    ./src/core/sntp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/sntp.o
+  CC    /mongoose-os/fw/src/mgos_system.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_system.c.o
+  CC    /mongoose-os/fw/src/mgos_uart.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_uart.c.o
+  CC    /mongoose-os/fw/src/mgos_utils.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_utils.c.o
+  CC    /mongoose-os/fw/src/mgos_vfs.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_vfs.c.o
+  CC    /mongoose-os/fw/src/mgos_vfs_dev.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_vfs_dev.c.o
+  CC    /mongoose-os/fw/src/mgos_vfs_fs_spiffs.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_vfs_fs_spiffs.c.o
+  CC    /mongoose-os/common/cs_crc32.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/cs_crc32.c.o
+  CC    /mongoose-os/common/platforms/esp8266/rboot/rboot/appcode/rboot-bigflash.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/rboot-bigflash.c.o
+  CC    /mongoose-os/common/platforms/esp8266/rboot/rboot/appcode/rboot-api.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/rboot-api.c.o
+  CC    /mongoose-os/common/json_utils.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/json_utils.c.o
+  CC    /mongoose-os/common/umm_malloc/umm_malloc.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/umm_malloc.c.o
+  CC    /mongoose-os/mongoose/mongoose.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mongoose.c.o
+  CC    /mongoose-os/frozen/frozen.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/frozen.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_config.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_config.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_coredump.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_coredump.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_debug.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_debug.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_exc.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_exc.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_flash_writer.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_flash_writer.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_fs.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_fs.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_gpio.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_gpio.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_hal.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_hal.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_heap_trace.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_heap_trace.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_hw_timers.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_hw_timers.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_hw_wdt.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_hw_wdt.c.o
+  CC    ./src/core/def.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/def.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_libc.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_libc.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_main.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_main.c.o
+  CC    ./src/core/netif.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/netif.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_mdns.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_mdns.c.o
+  CC    ./src/core/stats.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/stats.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_periph.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_periph.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_uart.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_uart.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_updater.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_updater.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_vfs_dev_sysflash.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_vfs_dev_sysflash.c.o
+  CC    /mongoose-os/common/spiffs/spiffs_cache.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/spiffs_cache.c.o
+  CC    /mongoose-os/common/spiffs/spiffs_gc.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/spiffs_gc.c.o
+  CC    /mongoose-os/common/spiffs/spiffs_nucleus.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/spiffs_nucleus.c.o
+  CC    ./src/core/timers.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/timers.o
+  CC    /mongoose-os/common/spiffs/spiffs_check.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/spiffs_check.c.o
+  CC    /mongoose-os/common/spiffs/spiffs_hydrogen.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/spiffs_hydrogen.c.o
+  CC    /mongoose-os/common/platforms/esp8266/esp_crypto.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_crypto.c.o
+  CC    /mongoose-os/common/platforms/esp8266/esp_umm_malloc.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_umm_malloc.c.o
+  CC    /mongoose-os/fw/src/mgos_debug.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_debug.c.o
+  CC    ./src/core/pbuf.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/pbuf.o
+  CC    /mongoose-os/fw/src/mgos_net.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_net.c.o
+  CC    /mongoose-os/fw/src/mgos_bitbang.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_bitbang.c.o
+  CC    /mongoose-os/fw/src/mgos_sntp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mgos_sntp.c.o
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_exc_non_os.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_exc_non_os.c.o
+  AS    /mongoose-os/fw/platforms/esp8266/src/esp_exc_vectors.S -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_exc_vectors.S.o
+  AS    /mongoose-os/fw/platforms/esp8266/src/esp_nsleep100.S -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/esp_nsleep100.S.o
+  CP    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/fs/index.html -> build/fs
+  CC    ./src/core/udp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/udp.o
+  CP    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/conf0.json -> build/fs
+  CP    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_config_schema.json -> build/fs
+  CP    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mgos_ro_vars_schema.json -> build/fs
+  MKFS  /usr/local/bin/mkspiffs8 262144 4096 256 4096 build/fs -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/fw_temp/fs.bin
+CC rboot-stage2a.c
+     Adding conf0.json: 1233
+     Adding mgos_config_schema.json: 3693
+     Adding index.html: 70
+     Adding mgos_ro_vars_schema.json: 332
+     Image stats: size=262144, space: total=233681, used=6777, free=226904
+  CC    ./src/core/tcp_out.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/tcp_out.o
+LD /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/rboot/rboot-stage2a.elf
+E2 /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/rboot-hex2a.h
+CC rboot.c
+  CC    ./src/core/ipv4/ip_frag.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/ip_frag.o
+LD /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/rboot/rboot.elf
+  CC    ./src/core/ipv4/inet.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/inet.o
+E2 /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/rboot/rboot.bin
+  CC    ./src/core/ipv4/ip_addr.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/ip_addr.o
+  CC    ./src/core/ipv4/igmp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/igmp.o
+  CC    ./src/core/ipv4/ip.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/ip.o
+  CC    ./src/core/ipv4/autoip.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/autoip.o
+  CC    ./src/core/ipv4/inet_chksum.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/inet_chksum.o
+  CC    ./src/core/ipv4/icmp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/icmp.o
+  CC    ./src/api/netdb.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/netdb.o
+  CC    ./src/api/api_lib.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/api_lib.o
+  CC    ./src/api/netifapi.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/netifapi.o
+  CC    ./src/api/tcpip.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/tcpip.o
+  CC    ./src/api/netbuf.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/netbuf.o
+  CC    ./src/api/err.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/err.o
+  CC    ./src/api/api_msg.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/api_msg.o
+  CC    ./src/api/sockets.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/sockets.o
+  CC    ./espressif/app/espconn.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/espconn.o
+  CC    ./espressif/app/espconn_buf.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/espconn_buf.o
+  CC    ./espressif/app/netio.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/netio.o
+  CC    ./espressif/app/espconn_tcp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/espconn_tcp.o
+  CC    ./espressif/app/ping.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/ping.o
+  CC    ./espressif/app/dhcpserver.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/dhcpserver.o
+  CC    ./espressif/app/espconn_mdns.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/espconn_mdns.o
+  CC    ./espressif/app/espconn_udp.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/espconn_udp.o
+  AR /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/lwip/liblwip_cs.a
+make[1]: Leaving directory '/mongoose-os/common/platforms/esp8266/lwip'
+  GEN   /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/build_info.c
+  GEN   /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mg_build_info.c
+  AR    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mongoose-os.a
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/build_info.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/build_info.c.o
+  CC    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/gen/mg_build_info.c -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/mg_build_info.c.o
+  LD    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/configBlink.elf
+  FW    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/configBlink.elf -> /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/configBlink.bin
+  Generating breakdown
+  GEN    /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/fw_temp/manifest.json
+  ZIP    /app/build/fw/configBlink-esp8266-last.zip
+     Adding /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/fw_temp/configBlink.bin
+     Adding /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/fw_temp/esp_init_data_default.bin
+     Adding /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/fw_temp/fs.bin
+     Adding /fwbuild-volumes/latest/apps/configBlink/esp8266/build_contexts/build_ctx_399567632/build/objs/fw_temp/rboot.bin
+  Built configBlink/esp8266 version 1.0 (20171108-221604/???)
+make: Leaving directory '/app'
+Success, built configBlink/esp8266 version 1.0 (20171108-221604/???).
+Firmware saved to build/fw.zip

@@ -1,0 +1,30 @@
+The flag --repo is not given, going to use mongoose-os repository
+Repository "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/modules/mongoose-os-latest" is updated recently enough, don't touch it
+Sources: [/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src/main.c]
+Include dirs: []
+Binary libs: []
+Building...
+mount from "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407" to "/app"
+mount from "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/modules/mongoose-os-latest" to "/mongoose-os"
+mount from "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/modules/mongoose-os-latest" to "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/modules/mongoose-os-latest"
+mount from "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build" to "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build"
+mount from "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src" to "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src"
+mount from "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/fs" to "/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/fs"
+Docker arguments: run --name mos_build_2017-11-03T17-16-13-00_1 --rm -i -v /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407:/app -v /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/modules/mongoose-os-latest:/mongoose-os -v /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/modules/mongoose-os-latest:/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/modules/mongoose-os-latest -v /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build:/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build -v /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src:/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src -v /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/fs:/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/fs --user 0:0 docker.cesanta.com/esp8266-build:2.1.0-1.5.0-r7 /bin/bash -c nice make '-j' '32' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp8266/Makefile.build' 'all' 'APP_INCLUDES=' 'FS_STAGING_DIR=build/fs' 'FW_DIR=build/fw' 'MANIFEST_FINAL=/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/gen/mos_final.yml' 'APP_FS_FILES=/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/fs/index.html' 'APP_SOURCES=/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src/main.c' 'APP_BIN_LIBS=' 'MGOS_PATH=/mongoose-os' 'APP_CFLAGS=' 'APP_CXXFLAGS=' 'PLATFORM=esp8266' 'BUILD_DIR=/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs' 'APP_VERSION=1.0' 'FFI_SYMBOLS=' 'GEN_DIR=/fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/gen' 'APP=helloWorld'
+make: Entering directory '/app'
+  CC    /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src/main.c -> /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/main.c.o
+  GEN   /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/gen/build_info.c
+  CC    /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/gen/build_info.c -> /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/build_info.c.o
+  LD    /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/helloWorld.elf
+  FW    /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/helloWorld.elf -> /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/helloWorld.bin
+  Generating breakdown
+  GEN    /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/fw_temp/manifest.json
+  ZIP    /app/build/fw/helloWorld-esp8266-last.zip
+     Adding /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/fw_temp/esp_init_data_default.bin
+     Adding /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/fw_temp/fs.bin
+     Adding /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/fw_temp/helloWorld.bin
+     Adding /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/build/objs/fw_temp/rboot.bin
+  Built helloWorld/esp8266 version 1.0 (20171103-171618/???)
+make: Leaving directory '/app'
+Success, built helloWorld/esp8266 version 1.0 (20171103-171618/???).
+Firmware saved to build/fw.zip

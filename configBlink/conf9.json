@@ -1,0 +1,8 @@
+{
+  "device": {
+    "id": "esp8266_0FC3F2"
+  },
+  "configBlink": {
+    "ledInterval": 100
+  }
+}

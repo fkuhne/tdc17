@@ -1,0 +1,61 @@
+{
+  "sntp": {
+    "enable": true, 
+    "server": "pool.ntp.org", 
+    "retry_min": 1, 
+    "retry_max": 30, 
+    "update_interval": 7200
+  }, 
+  "device": {
+    "id": "esp8266_??????", 
+    "password": ""
+  }, 
+  "debug": {
+    "udp_log_addr": "", 
+    "mbedtls_level": 0, 
+    "level": 2, 
+    "filter": "", 
+    "stdout_uart": 0, 
+    "stderr_uart": 0, 
+    "factory_reset_gpio": -1, 
+    "mg_mgr_hexdump_file": ""
+  }, 
+  "sys": {
+    "mount": {
+      "path": "", 
+      "dev_type": "", 
+      "dev_opts": "", 
+      "fs_type": "", 
+      "fs_opts": ""
+    }, 
+    "wdt_timeout": 30
+  }, 
+  "conf_acl": "*", 
+  "rpc": {
+    "enable": true, 
+    "max_frame_size": 4096, 
+    "max_queue_length": 25, 
+    "default_out_channel_idle_close_timeout": 10, 
+    "acl_file": "", 
+    "auth_domain": "", 
+    "auth_file": "", 
+    "ws": {
+      "enable": true, 
+      "server_address": "", 
+      "reconnect_interval_min": 1, 
+      "reconnect_interval_max": 60, 
+      "ssl_server_name": "", 
+      "ssl_ca_file": "", 
+      "ssl_client_cert_file": ""
+    }, 
+    "uart": {
+      "uart_no": 0, 
+      "baud_rate": 115200, 
+      "fc_type": 2, 
+      "wait_for_start_frame": true
+    }
+  }, 
+  "configBlink": {
+    "ledInterval": 1000
+  }
+}

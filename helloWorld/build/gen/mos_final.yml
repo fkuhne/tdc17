@@ -1,0 +1,23 @@
+name: helloWorld
+type: app
+version: "1.0"
+platform: esp8266
+platforms:
+- cc3200
+- cc3220
+- esp32
+- esp8266
+- pic32
+- stm32
+author: mongoose-os
+description: A Mongoose OS app skeleton
+sources:
+- /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/src/main.c
+filesystem:
+- /fwbuild-volumes/latest/apps/helloWorld/esp8266/build_contexts/build_ctx_097501407/fs/index.html
+tags:
+- c
+libs_version: latest
+modules_version: latest
+mongoose_os_version: latest
+manifest_version: 2017-05-18
